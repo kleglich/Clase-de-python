@@ -33,7 +33,6 @@ def pop_usuario(usuarios):
         print(f"Usuario '{eliminado}' eliminado")
     else:
         print("La lista está vacia")
-
     
 def index_usuario(usuarios):
     nombre = input("Ingrese el nombre del usuario para buscar su índice: ")
@@ -57,7 +56,6 @@ def reverse_usuario(usuarios):
 
 def mostrar_usuarios(usuarios):
     print("Usuarios actuales:", usuarios)
-
 
 def menu():
     usuarios = []
@@ -104,5 +102,4 @@ def menu():
                 print("Opción no válida, intente de nuevo.")
 
 #**********************************************************************#
-
 menu()
