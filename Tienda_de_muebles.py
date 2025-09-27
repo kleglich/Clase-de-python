@@ -26,7 +26,7 @@ def agregar_factura(clientes, codigo_cliente):
     for cliente in clientes:
         if cliente[0] == codigo_cliente:
             codigo = input("Código de la factura: ")
-            fecha = input("Fecha (YYYY-MM-DD): ")
+            fecha = input("Fecha: ")
             monto = float(input("Monto total: "))
             items = int(input("Cantidad de ítems: "))
             cliente[3].append((codigo, fecha, monto, items))
@@ -97,4 +97,5 @@ def menu_principal():
 
 #################################################################
 menu_principal()
+
 
